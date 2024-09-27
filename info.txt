@@ -1,0 +1,10 @@
+## iniciar projeto
+npm init -y 
+
+## instalar dependencias
+# tsx - rodar códico ts
+# tsup - preparar build
+npm i typescript @types/node tsx tsup -D
+
+## configuração ts
+npx tsc --init
