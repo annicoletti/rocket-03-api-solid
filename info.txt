@@ -33,3 +33,8 @@ npm i -D eslint
 npx eslint --init
 
 npm i -D @rocketseat/eslint-config 
+
+### ORM
+#instalar prisma
+npm -i prisma -D
+npx prisma init
