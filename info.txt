@@ -1,7 +1,10 @@
 ## iniciar projeto
 npm init -y 
 
-## instalar dependencias
+##configurar npm - fixar versão das dependencias
+.npmrc => save-exact=true
+
+## instalar dependencias dev
 # tsx - rodar códico ts
 # tsup - preparar build
 npm i typescript @types/node tsx tsup -D
