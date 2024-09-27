@@ -8,3 +8,11 @@ npm i typescript @types/node tsx tsup -D
 
 ## configuração ts
 npx tsc --init
+
+# fastify - server http
+npm i fastify
+
+# scripts 
+"start:dev":"tsx watch src/server.ts"
+"start":"node build/server.js",
+"build":"tsup src --out-dir build"
