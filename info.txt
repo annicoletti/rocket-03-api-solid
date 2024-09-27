@@ -19,3 +19,11 @@ npm i fastify
 "start:dev":"tsx watch src/server.ts"
 "start":"node build/server.js",
 "build":"tsup src --out-dir build"
+
+# lib - dotenv
+npm i dotenv
+
+# lib - zod para validações
+npm i zod
+
+# validação de envs com zod.
