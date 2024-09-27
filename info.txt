@@ -27,3 +27,9 @@ npm i dotenv
 npm i zod
 
 # validação de envs com zod.
+
+## EsLint
+npm i -D eslint 
+npx eslint --init
+
+npm i -D @rocketseat/eslint-config 
