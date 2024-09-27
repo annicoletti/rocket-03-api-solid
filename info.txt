@@ -37,4 +37,7 @@ npm i -D @rocketseat/eslint-config
 ### ORM
 #instalar prisma
 npm -i prisma -D
+#inicia configurações
 npx prisma init
+#client
+npm i @prisma/client
