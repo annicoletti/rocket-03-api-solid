@@ -44,3 +44,8 @@ npm i @prisma/client
 
 #subir banco e executar migration
 npx prisma migrate dev
+
+npx prisma migrate deploy -- ambiente prods
+
+#ide database
+npx prisma studio
