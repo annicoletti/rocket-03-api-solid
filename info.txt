@@ -41,3 +41,6 @@ npm -i prisma -D
 npx prisma init
 #client
 npm i @prisma/client
+
+#subir banco e executar migration
+npx prisma migrate dev
