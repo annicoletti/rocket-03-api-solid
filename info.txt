@@ -58,3 +58,4 @@ npm i vitest -D
 
 #plugin para o vitest entender a configuração do atalho com @
 npm i vite-tsconfig-paths -D
+npm i @vitest/coverage-v8 -D
