@@ -49,7 +49,7 @@ describe('Resgister Use Case', () => {
 
 
 
-        expect(() =>
+        await expect(() =>
             registerService.execute({
                 nome: 'John Doe',
                 email,
