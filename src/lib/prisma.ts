@@ -1,5 +1,5 @@
-import { env } from "@/env";
 import { PrismaClient } from "@prisma/client";
+import { env } from "../env";
 
 export const prisma = new PrismaClient({
     //logando queries em ambiente dev

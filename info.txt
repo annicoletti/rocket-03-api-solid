@@ -52,3 +52,9 @@ npx prisma studio
 
 #Hash
 npm i bcryptjs @types/bcryptjs
+
+##Testes
+npm i vitest -D
+
+#plugin para o vitest entender a configuração do atalho com @
+npm i vite-tsconfig-paths -D
