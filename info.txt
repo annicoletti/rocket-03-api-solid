@@ -49,3 +49,6 @@ npx prisma migrate deploy -- ambiente prods
 
 #ide database
 npx prisma studio
+
+#Hash
+npm i bcryptjs @types/bcryptjs
